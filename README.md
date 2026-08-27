@@ -45,12 +45,11 @@ Passive discovery observes requests without mutating or replaying them.
 
 ## Run tests against a request
 
+### 0. Make sure **Passive email discovery** is checked in the discoveries tab of the extension. This will allow the tool to auto discover requests that contain email addresses.
+
 ### 1. Send a request to Email Atomizer
 
-When Burp sees an interesting request containing an email address, either:
-
-- Right-click the request and choose **Email Atomizer → Send to Email Atomizer**.
-- Open **Discoveries** and send or double-click a discovered request.
+After making an interesting request containing an email address, open the **Discoveries** tab of the extension then choose **Send selected to Test Builder**.
 
 The exact stored request is retained so the Test Builder can replay mutations against the original request structure.
 
