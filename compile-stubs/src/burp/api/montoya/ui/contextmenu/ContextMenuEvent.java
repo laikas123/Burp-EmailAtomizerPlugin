@@ -1,0 +1,1 @@
+package burp.api.montoya.ui.contextmenu; import burp.api.montoya.http.message.HttpRequestResponse; import java.util.List; public interface ContextMenuEvent { List<HttpRequestResponse> selectedRequestResponses(); }

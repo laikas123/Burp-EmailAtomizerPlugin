@@ -1,0 +1,1 @@
+package burp.api.montoya.collaborator; public interface InteractionId { String toString(); }

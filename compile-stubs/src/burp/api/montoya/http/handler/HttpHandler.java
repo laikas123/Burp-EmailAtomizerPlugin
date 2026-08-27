@@ -1,0 +1,1 @@
+package burp.api.montoya.http.handler; public interface HttpHandler { RequestToBeSentAction handleHttpRequestToBeSent(HttpRequestToBeSent request); ResponseReceivedAction handleHttpResponseReceived(HttpResponseReceived response); }

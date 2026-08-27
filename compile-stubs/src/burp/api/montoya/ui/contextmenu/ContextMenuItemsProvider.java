@@ -1,0 +1,1 @@
+package burp.api.montoya.ui.contextmenu; import java.awt.Component; import java.util.List; public interface ContextMenuItemsProvider { default List<Component> provideMenuItems(ContextMenuEvent event) { return java.util.Collections.emptyList(); } }
