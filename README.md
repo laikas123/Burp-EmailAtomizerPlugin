@@ -45,7 +45,9 @@ Passive discovery observes requests without mutating or replaying them.
 
 ## Run tests against a request
 
-### 0. Make sure **Passive email discovery** is checked in the discoveries tab of the extension. This will allow the tool to auto discover requests that contain email addresses.
+### 0. Enable Email Request Disocvery 
+
+Make sure **Passive email discovery** is checked in the discoveries tab of the extension. This will allow the tool to auto discover requests that contain email addresses.
 
 ### 1. Send a request to Email Atomizer
 
